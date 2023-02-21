@@ -1,0 +1,30 @@
+html,body{
+    margin: 0;
+}
+body {
+    background: url("log.jpg");
+    background-size: cover;
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%,-50%);
+    font-family: 'Signika', sans-serif;
+}
+.container{
+    /*position: relative;*/
+    width: 250px;
+    height: 525px;
+    perspective:1000px;
+    webkit-perspective: 1000px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+h2{
+    color: #ffffff;
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    margin-left: 275px
+    line-height: 50px;
+}

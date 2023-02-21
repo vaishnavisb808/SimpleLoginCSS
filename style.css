@@ -1,0 +1,12 @@
+html,body{
+    margin: 0;
+}
+body {
+    background: url("welcom.png");
+    background-size: cover;
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%,-50%);
+    font-family: 'Signika', sans-serif;
+}
